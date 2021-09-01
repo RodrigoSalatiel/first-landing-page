@@ -71,7 +71,7 @@ h6{
 }
 
 .main-content{
-  max-width: 1200px;
+  max-width: 120rem;
   margin: 0 auto;
   padding: var(--gap);
 }
@@ -88,7 +88,7 @@ h6{
   left: 0;
   right: 0;
   width: 100%;
-  border-bottom: solid 2px var(--light-gray-color);
+  border-bottom: 0.2rem solid var(--light-gray-color);
 }
 
 .menu-content{
