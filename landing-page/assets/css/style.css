@@ -3,6 +3,7 @@
 :root{
   --primary-color: #0A1128;
   --white-color: #fff;
+  --light-gray-color: #eee;
   --gap: 3rem;
 }
 
@@ -77,4 +78,55 @@ h6{
 
 .section{
   min-height: 100vh;
+}
+
+/*MENU*/
+
+.menu-container{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  border-bottom: solid 2px var(--light-gray-color);
+}
+
+.menu-content{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.logo-container{
+  max-width: 3.5rem;
+  height: auto;
+}
+
+.menu-logo{
+  max-width: 100%;
+  height: auto;
+}
+
+.menu-list{
+  display: flex;
+}
+
+.menu-items{
+  padding-right: var(--gap);
+}
+
+.menu-items a{
+  color: var(--primary-color);
+  text-transform: capitalize;
+  display: block;
+  padding: 2rem;
+  font-size: 1.8rem;
+  transition: font 0.2s ease-in-out;
+}
+
+.menu-items a:hover{
+  font-weight: bold;
 }
